@@ -7,10 +7,13 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationLink(destination: SwiftUIView()) {
+            Text("See All")
+        }
     }
 }
 
